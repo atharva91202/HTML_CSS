@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 0;
+}
+
+nav{
+    flex: 1;
+    background: rgb(191, 248, 191);
+}
+
+.right-col{
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+}
+
+.lower-row{
+    display: flex;
+    flex: 2;
+}
+
+.lower-row-col1{
+    flex: 4;
+}
+
+header{
+    background-color: rgb(8, 157, 8);
+    height: 20vh;
+}
+
+footer{
+    background-color: rgb(10, 176, 10);
+    height: 20vh;
+}
+ 
+article{
+    background-color: aliceblue;
+    flex: 3;
+    min-height: 60vh;
+}
+
+aside{
+    background-color: rgb(240, 206, 161);
+    flex: 1;
+}
+
+header, nav, footer, aside, article{
+    padding: 1em;
+}
