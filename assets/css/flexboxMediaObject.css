@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+  }
+
+  .object {
+    margin-right: 1em;
+  }
+  
+  .card-body {
+    flex: 1;
+  }
+  
+  .heading {
+    margin: 0 0 1em;
+  }
